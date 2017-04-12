@@ -1,0 +1,29 @@
+{
+  "name": "symmetrical-broccoli",
+  "version": "1.0.0",
+  "description": "A game document design tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./config/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernando1124/symmetrical-broccoli.git"
+  },
+  "author": "Luis Fernando Salazar Garcia <valhalla18@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernando1124/symmetrical-broccoli/issues"
+  },
+  "homepage": "https://github.com/fernando1124/symmetrical-broccoli#readme",
+  "engines": {
+    "node": "6.9.2"
+  },
+  "dependencies": {
+    "consolidate": "0.14.5",
+    "express": "4.15.2",
+    "helmet": "3.5.0",
+    "mustache": "2.3.0"
+  }
+}
